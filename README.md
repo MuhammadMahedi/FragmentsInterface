@@ -1,0 +1,2 @@
+I have two fragments . For some action of first fragment i want to change the ui or make some changes in the second fragment. In that case we can use Interface in the following way. But be careful using the interface in multiple fragments or making multiple implementations of this interface. If you make multiple implementation of the interface then only the last implementation will work and the other wont execute.
+For multiple actions you can create multiple interfaces in the class and use them accordingly.
